@@ -3,7 +3,7 @@ An implementation of 32-bit .w3x (warcraft 3 map archive) hash calculation algor
 
 This hash is usually used for map comparison; it is also baked into the replay file by the game engine in order to compare the map used in replay and an actual map the game client tries to run the replay on.
 
-Another are of extensive usage for this hash is the LAN-game creation where the host has to verify that all of the players got the same map version. This is used in [Flo hosting system](https://github.com/w3champions/flo), for instance. That, in turn, is a backbone of [W3Champion's](https://w3champions.com) server architecture.
+Another area of extensive usage for this hash is the LAN-game creation where the host has to verify that all of the players got the same map version. This is used in [Flo hosting system](https://github.com/w3champions/flo), for instance. That, in turn, is a backbone of [W3Champion's](https://w3champions.com) server architecture.
 
 ## Source
 The algorithm was painstakingly constructed following the cryptanalysis of hash function's behaviour, no binaries were disassembled.
